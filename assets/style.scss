@@ -1,0 +1,14 @@
+html,
+body,
+main,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+$body-bg: rgb(249, 141, 58);
+$theme-colors: (
+  'primary': #166285,
+);
+@import 'bootstrap/scss/bootstrap';
