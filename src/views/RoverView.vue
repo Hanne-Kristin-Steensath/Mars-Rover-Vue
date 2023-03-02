@@ -1,11 +1,11 @@
 <script>
   import RoverList from '../components/RoverList.vue';
-  import goBack from '../components/goBack.vue';
+  import GoBack from '../components/GoBack.vue';
 
   export default {
     components: {
       RoverList,
-      goBack,
+      GoBack,
     },
     props: {
       roverName: {
@@ -18,7 +18,7 @@
 
 <template>
   <div class="RoverPageContainer bg-image">
-    <goBack class="goBackButton" />
+    <GoBack class="goBackButton" />
 
     <div class="roverListImage">
       <RoverList :rover-name="roverName" />
@@ -38,7 +38,6 @@
   }
 
   .goBackButton {
-    background-color: black;
     color: white;
     border-radius: 35px;
     border: none;

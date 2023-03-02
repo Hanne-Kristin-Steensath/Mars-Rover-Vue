@@ -8,12 +8,17 @@
       @change="sendChange"
     />
   </div>
+
+  <button @click="randomButton = !randomButton">Hei</button>
+
+  <h1 v-if="randomButton">Heisann</h1>
+  <h1 v-else>hade!</h1>
 </template>
 
 <script>
   export default {
     data() {
-      return { watcher: '' };
+      return { watcher: '', randomButton: true };
     },
     watch: {
       watcher() {

@@ -21,7 +21,9 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+  $button-color: rgb(0, 0, 0);
+
   .Menucontainer {
     background-image: url('/assets/astronaut.jpg');
     height: 100vh;
@@ -31,7 +33,7 @@
     margin: 0px;
   }
   .buttonHome {
-    background-color: black;
+    background-color: $button-color;
     color: white;
     margin: 1rem;
     padding: 25px 60px;

@@ -12,4 +12,10 @@
   };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss" scoped>
+  $gobackbutton-color: rgb(0, 0, 0);
+
+  button {
+    background-color: $gobackbutton-color;
+  }
+</style>
